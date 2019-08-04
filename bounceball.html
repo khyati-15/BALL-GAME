@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: lightgray;
+}
+	p{
+		font-size: 40px;
+		color: red;
+	}
+	#tryagain{
+		visibility: hidden;
+		width: 200px;
+		height:75px;
+		background-color: dodgerblue;
+		border-color: dodgerblue;
+		color:white;
+		font-size:30px;
+		border-radius: 10px;
+	}
+	body{
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+	}
+</style>
+</head>
+<body onload="startGame()" id="body">
+
+<center><p id="h1"></p>
+
+	<button id="tryagain">Try Again</button></center>
+	<script src="js/game.js"></script>
+</body>
+
+</html>
